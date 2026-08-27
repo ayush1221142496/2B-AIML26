@@ -46,7 +46,7 @@ console.log("====function parameters====");
      //percentage program
      console.log("===percentage program===");
       function percentage(math, english,hindi) {
-          return ((math + english+ hindi) / 300) * 100;
+          return ((math + english+ science) / 300) * 100;
       }
       let total=totalMarks(80,45,59);
       let percent=percentage(80,45,90);
