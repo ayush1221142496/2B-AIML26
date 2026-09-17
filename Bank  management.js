@@ -38,8 +38,8 @@ let account1 = new Bankaccount(10151546, "Rahul", 500000);
 let account2 = new Bankaccount(10245466, "Ayush", 8000);
 
 account1.displayBalance();
-account1.deposit(10000);
-account1.withdraw(5000);
+account1.deposit(100000);
+account1.withdraw(50000);
 account2.displayBalance();
 account2.deposit(500000);
 account2.withdraw(1000);
