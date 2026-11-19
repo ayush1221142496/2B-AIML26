@@ -11,3 +11,15 @@ ud.on("exit", (code) => {
 
 ud.emit("greet", "Ayush");
 ud.emit("exit", 0);
+
+
+// const EventEmitter =require("event")
+// const b=new EventEmitter()
+// b.on('greet',(name)=>{
+//      console.log(`welcome to class B`+name)
+// });
+// b.on("exit",(num)=>{
+//   console.log(`thanks for visit ${num}`);
+// });
+//   b.emit("greet","Ayush");
+//   b.emit("exit",0)
